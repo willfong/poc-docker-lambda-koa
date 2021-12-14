@@ -1,0 +1,17 @@
+{
+  "name": "poc-docker-lambda-koa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:willfong/poc-docker-lambda-koa.git",
+  "author": "Will Fong <willfong@hey.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "PORT=3000 node app.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-pino-logger": "^3.0.0",
+    "serverless-http": "^2.7.0"
+  }
+}
